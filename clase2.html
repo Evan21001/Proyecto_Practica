@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematica Discreta</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/contenidos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html"> Portafolio</a></a>
+            <a href="index.html">Respuestas</a>
+            <a href="index.html">Más</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Proyecto Final #1</h1>
+            <h2>Conceptos y Ejemplos </h2>
+            <h10>Matematica Discretra</h10>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C70.82,-113.97 -7.62,298.52 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <div id="cont-text" class="cont">
+        <h2 class="t0">Permutaciones y Combinaciones</h2>
+        <p>En ciertas ocasiones el orden importa y en otras no, por ejemplo, no importa el orden en que los ingredientes
+            de un batido se pongan ya que siempre será el mismo batido, pero el orden si importa cuando escribes un
+            número de teléfono ya que si cambias un solo número ya será un número de teléfono diferente.</p>
+        <p>Cuando el orden si importa es una permutación </p>
+        <p>Cuando el orden no importa es una combinación</p>
+        <h2 class="t1">- Permutaciones</h2>
+        <p>Existen 2 tipos de permutaciones:</p>
+        <p>- Con repetición: Por ejemplo, la combinación arriba, arriba, arriba, como una combinación. </p>
+        <p>- Sin repetición: Por ejemplo, no se puede ser novato y experto a la vez en un tema.</p>
+        <p>Permutaciones con repetición: En este caso se tienen n cosas para elegir y se eligen r de ellas (se pueden
+            repetir, el orden importa), la fórmula sería la siguiente: Permutación sin repetición</p>
+        <img src="img/ec-class2.png" alt="">
+        <p>Donde la primera elección tiene n posibilidades y la siguiente igual así hasta llegar a la última.</p>
+        <h2 class="ej">Ejemplo:</h2>
+        <p>Suponiendo que tenemos una cerradura con 3 casillas y en la cual se puede cambiar número del 0 al 5.</p>
+        <p>Entonces tenemos 6 cosas para elegir y vamos a elegir 3 de ellas, por lo tanto:</p>
+        <p>6<sup>3</sup>=216 permutaciones</p>
+        <p>Permutaciones sin repetición: Cuando no se puede repetir se reduce en número de opciones en cada paso.</p>
+        <p>Se utilizaría la siguiente fórmula:</p>
+        <img src="img/ec2-class2.png" alt="">
+        <h2 class="ej">Ejemplo:</h2>
+        <p>Se tienen 6 pelotas y se le pide que ordene esas pelotas, por ejemplo, si eligiera la pelota 1 ya no podría
+            elegirlo otra vez, por lo tanto:</p>
+        <p>6*5*4*3*2*1= 720</p>
+        <p>O de la siguiente forma: 6! = 720</p>
+        <p>Como se dan cuenta en cada paso se disminuyen las opciones.</p>
+        <p>¿Qué pasa si no se eligen todos los elementos?</p>
+        <p>En este caso se usa la siguiente fórmula:</p>
+        <img src="img/ec3-class2.png" alt="">
+        <p>Donde n son las cosas disponibles para elegir y r las que se van a elegir. (No se puede repetir, el orden
+            importa)</p>
+        <h2 class="ej">Ejemplo:</h2>
+        <p>¿Dé cuantas formas se puede entregar medallas de oro, plata y bronce entre 5 personas?</p>
+        <p>Usando la fórmula:</p>
+        <img src="img/ec4-class2.png" alt="">
+        <h2 class="t1">- Combinaciones</h2>
+        <p>Una combinación es un conjunto de elementos en los cuales el orden no importa. Hay dos tipos:</p>
+        <p>- Con repetición: Si los elementos pueden aparecer varias veces.</p>
+        <p>- Sin repetición: Cuando los elementos solo pueden apareces una vez.</p>
+        <p>Combinaciones sin repetición: Para este tipo se utiliza la fórmula siguiente:</p>
+        <img src="img/ec5-class2.png" alt="">
+        <p>A esto se le llama coeficiente binominal.</p>
+        <p>Donde n son las cosas que se pueden elegir y r el número de cosas que se van a elegir (no se puede repetir,
+            el orden no importa)</p>
+        <h2 class="ej">Ejemplo:</h2>
+        <p>De 8 estudiantes en un salón se deben seleccionar 4 para ir a una excursión ¿De cuántas formas diferentes se
+            puede seleccionar a los 4 estudiantes?</p>
+        <p>Respuesta:</p>
+        <p>Usando la fórmula</p>
+        <img src="img/ec6-class2.png" alt="">
+        <p>Combinaciones con repetición: Se usa la siguiente fórmula:</p>
+        <img src="img/ec7-class2.png" alt="">
+        <p>Donde n son las cosas que se pueden elegir y r las que se van a elegir. (se puede repetir, el orden no
+            importa)</p>
+        <p>Como ya su nombre lo indica si se pueden repetir los elementos, veámoslo con un ejemplo.</p>
+        <h2 class="ej">Ejemplo:</h2>
+        <p>En una tienda se venden 5 diferentes sabores de gaseosa ¿Cuántas combinaciones de compra de 3 gaseosas puedo
+            hacer?</p>
+        <p>Repuesta:</p>
+        <p>Usando la fórmula</p>
+        <img src="img/ec8-class2.png" alt="">
+
+    </div>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>phone</h4>
+                <p>12345678</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>12345678</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>12345678</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Duarte's Industries | Evan Duarte</h2>
+    </footer>
+</body>
+
+</html>

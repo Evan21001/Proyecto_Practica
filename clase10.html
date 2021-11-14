@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematica Discreta</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/contenidos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html"> Portafolio</a></a>
+            <a href="index.html">Respuestas</a>
+            <a href="index.html">Más</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Proyecto Final #1</h1>
+            <h2>Conceptos y Ejemplos </h2>
+            <h10>Matematica Discretra</h10>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C70.82,-113.97 -7.62,298.52 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <div id="cont-text" class="cont">
+        <h2 class="t0">Teoría de Árboles</h2>
+        <p>Desde el punto de vista conceptual, un árbol es un caso particular de grafo, es un objeto que comienza con
+            una raíz y se extiende en ramificaciones o líneas que terminan en un nodo.</p>
+        <h2 class="ej">Ejemplo:</h2>
+        <img src="img/ec-class10.png" alt="">
+        <h2 class="t1">Longitud de Árbol</h2>
+        <p>Es el número de arcos que deben ser recorridos desde la raíz hasta el nodo X. Cuando hablamos de longitud de
+            un árbol, debemos diferenciar los siguientes conceptos:</p>
+        <p>- Longitud de camino.</p>
+        <p>- Longitud de camino interno.</p>
+        <p>- Longitud de camino externo.</p>
+        <h2 class="t1">Longitud de camino</h2>
+        <p>la longitud de camino X como el número de arcos que deben ser recorridos para llegar, desde la raíz, al nodo
+            X</p>
+        <h2 class="ej">Ejemplo:</h2>
+        <img src="img/ec2-class10.png" alt="">
+        <h2 class="t1">Longitud de camino interno</h2>
+        <p>Es la suma de las longitudes de camino de todos los nodos del árbol.</p>
+        <img src="img/ec3-class10.png" alt="">
+        <img src="img/ec4-class10.png" alt="">
+        <p>LCI= 36</p>
+        <p> * 1 = 1</p>
+        <p>2 * 2 = 4</p>
+        <p>5 * 3 = 15</p>
+        <p>4 * 4 = 16</p>
+        <h2>Media de longitud de camino interno</h2>
+        <p>Es el número de arcos que deben ser recorridos en promedio para llegar de la raíz a un nodo cualquiera del
+            árbol.</p>
+        <img src="img/ec5-class10.png" alt="">
+        <p>En donde LCI = longitud de camino interno y "n" =número de nodos del árbol. </p>
+        <img src="img/ec6-class10.png" alt="">
+        <p>LCI= 36</p>
+        <p>1 * 1 = 1</p>
+        <p>2 * 2 = 4 </p>
+        <p>5 * 3 = 15</p>
+        <p>4 * 4 = 16</p>
+        <p>LCIM = 3</p>
+        <p>LCI/N</p>
+        <p>36/12</p>
+        <h2 class="t1">Longitud de camino externo</h2>
+        <h2>Árbol extendido: </h2>
+        <p>Es aquel en el que el número de hijos de cada nodo es igual al grado del árbol.
+            Para que se cumpla esta condición si es necesario se le agregan nodos especiales al árbol, tantos como sea
+            necesario para que se cumpla la condición.
+        </p>
+        <h2>Nodos especiales: </h2>
+        <p>Su objetivo es reemplazar las ramas vacías o nulas y no pueden tener descendientes.</p>
+        <img src="img/ec7-class10.png" alt="">
+        <p>La longitud de camino externo LCE es la suma de las longitudes de camino de todos los nodos especiales de un
+            árbol.</p>
+        <img src="img/ec8-class10.png" alt="">
+        <p>En donde "h" = altura del árbol, "i" = nivel del árbol y "nei" = número de nodos especiales en el nivel "i".
+        </p>
+        <img src="img/ec9-class10.png" alt="">
+        <p>LCE = 109</p>
+        <p>1 * 2 = 02</p>
+        <p>1 * 3 = 03</p>
+        <p>11 * 4 = 44</p>
+        <p>12 * 5 = 60</p>
+
+        <p></p>
+    </div>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>phone</h4>
+                <p>12345678</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>12345678</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>12345678</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Duarte's Industries | Evan Duarte</h2>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematica Discreta</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/contenidos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html"> Portafolio</a></a>
+            <a href="index.html">Respuestas</a>
+            <a href="index.html">Más</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Proyecto Final #1</h1>
+            <h2>Conceptos y Ejemplos </h2>
+            <h10>Matematica Discretra</h10>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C70.82,-113.97 -7.62,298.52 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <div id="cont-text" class="cont">
+        <h2 class="t0">Teoría de Grafos</h2>
+        <h2 class="t1">Grafos</h2>
+        <p>Un grafo es un conjunto de objetos llamados vértices o nodos unidos por enlaces llamados aristas o arcos, que
+            permiten representar relaciones binarias entre elementos de un conjunto. Gracias a la teoría de grafos se
+            pueden resolver diversos problemas como por ejemplo la síntesis de circuitos secuenciales, contadores o
+            sistemas de apertura. Se utiliza para diferentes áreas, por ejemplo, Dibujo computacional, en todas las
+            áreas de Ingeniería. Los grafos se utilizan también para modelar trayectos como el de una línea de autobús a
+            través de las calles de una ciudad, en el que podemos obtener caminos óptimos para el trayecto aplicando
+            diversos algoritmos como puede ser el algoritmo de Floyd.</p>
+        <h2 class="ej">Ejemplo:</h2>
+        <img src="img/ec-class7.png" alt="">
+        <h2>- Complementos de grafos</h2>
+        <p>Aristas Adyacentes: estas son dos aristas que se dirigen en al mismo vértice y se juntan en él.</p>
+        <img src="img/ec2-class7.png" alt="">
+        <h2>- Lazos:</h2>
+        <p>Un grafo o dígrafo es una arista que conecta al mismo vértice consigo mismo.</p>
+        <img src="img/ec3-class7.png" alt="">
+        <h2>- Aristas Paralelas: </h2>
+        <p>Las aristas múltiples (también llamadas aristas paralelas o una multi-arista), son dos o más aristas que son
+            incidentes (es decir, que conectan) a al menos dos vértices.</p>
+        <img src="img/ec4-class7.png" alt="">
+        <h2>- Vértice Adyacentes: </h2>
+        <p>Un vértice adyacente de un vértice v en un grafo es un vértice que está conectado a v mediante una arista.
+        </p>
+        <img src="img/ec5-class7.png" alt="">
+        <h2 class="t1">Tipos de grafos</h2>
+        <p>Grafo simple o simplemente grafo: Es aquel que acepta una sola una arista uniendo dos vértices cualesquiera.
+            Esto es equivalente a decir que una arista cualquiera es la única que une dos vértices específicos.</p>
+        <img src="img/ec6-class7.png" alt="">
+        <h2>- Multígrafo: </h2>
+        <p>Son grafos que aceptan más de uEna arista entre dos vértices. Estas aristas se llaman múltiples o lazos.</p>
+        <img src="img/ec7-class7.png" alt="">
+        <h2>- Grafo dirigido: </h2>
+        <p>Son grafos en los cuales se ha añadido una orientación a las aristas, representada gráficamente por una
+            flecha.</p>
+        <img src="img/ec8-class7.png" alt="">
+        <h2>Grafo Conexo: </h2>
+        <p>En teoría de grafos, un grafo conexo o conectado es un grafo en que todos sus vértices están conectados por
+            un camino o por un semicamino.</p>
+        <img src="img/ec9-class7.png" alt="">
+        <h2 class="t1">Matriz de adyacencia</h2>
+        <p>Es una matriz booleana que representa las conexiones entre pares de vértices. La matriz de adyacencia de un
+            grafo es simétrica. Si un vértice es aislado entonces la correspondiente fila (columna) está compuesta sólo
+            por ceros. Si el grafo es simple entonces la matriz de adyacencia contiene solo ceros y unos (matriz
+            binaria) y la diagonal está compuesta sólo por ceros.</p>
+        <h2 class="ej">Ejemplo:</h2>
+        <p>Dibujar un grafo no orientado y su matriz de adyacencia según lo que expresan los siguientes conjuntos:</p>
+        <p>V = {1,2,3,4}</p>
+        <p>A = {12,13,14,23,21,31,32,34,41,43}</p>
+        <img src="img/ec10-class7.png" alt="">
+        <h2 class="t1">Sub grafos</h2>
+        <p>Un subgrafo de un grafo G es un grafo cuyos conjuntos de vértices y aristas son subconjuntos de los de G.</p>
+        <img src="img/ec11-class7.png" alt="">
+        <h2 class="t1">Grafos isomorfos</h2>
+        <p>Los grafos isomorfos deben de contar con la misma cantidad de vértices, aristas y la sucesión de sus grados
+            debe ser igual, si dos grafos son isomorfos sus complementarios también lo son.</p>
+        <h2 class="ej">Ejemplo:</h2>
+        <img src="img/ec12-class7.png" alt="">
+
+        <p></p>
+    </div>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>phone</h4>
+                <p>12345678</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>12345678</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>12345678</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Duarte's Industries | Evan Duarte</h2>
+    </footer>
+</body>
+
+</html>
